@@ -1,10 +1,3 @@
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-
-#include "domain/control.h"
-#include "hal/gpio.h"
-
-#include "esp_log.h"
 #include "control_task.h"
 
 static const char *TAG = "control";

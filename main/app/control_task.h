@@ -1,5 +1,13 @@
 #pragma once
 
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+
+#include "control.h"
+#include "gpio.h"
+
+#include "esp_log.h"
+
 #include <stdint.h>
 
 #define ADC_HIGH 2500

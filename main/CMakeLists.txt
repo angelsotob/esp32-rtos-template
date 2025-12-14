@@ -1,10 +1,10 @@
 idf_component_register(
     SRCS
         "app/app_main.c"
+        "app/control_task.c"
         "domain/control.c"
         "hal/gpio_esp32.c"
     INCLUDE_DIRS
-        "."
         "app"
         "domain"
         "hal"
