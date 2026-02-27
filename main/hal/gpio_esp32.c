@@ -1,7 +1,8 @@
 #include "gpio.h"
 #include "driver/gpio.h"
 
-#define LED_GPIO GPIO_NUM_2   // típico LED integrado en muchos devkits (ajústalo luego)
+// Typical onboard LED on many devkits (adjust it later if needed)
+#define LED_GPIO GPIO_NUM_2
 
 void gpio_init(void)
 {
