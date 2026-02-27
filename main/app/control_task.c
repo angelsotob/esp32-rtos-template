@@ -7,7 +7,7 @@ static void control_task(void *arg)
     (void)arg;
 
     while (1) {
-        // Demo provisional: valores "como si" viniesen de ADC
+        // Temporary demo: values "as if" they were coming from the ADC
         // TODO: replace adc_value demo with queue-received ADC sample
         uint16_t adc_value = ADC_HIGH;
         gpio_set_led(should_led_be_on(adc_value));
